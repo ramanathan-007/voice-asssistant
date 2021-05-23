@@ -1,7 +1,7 @@
 import requests
 
 
-api_address="http://newsapi.org/v2/top-headlines?country=us&apikey=*" # *=apikey
+api_address="http://newsapi.org/v2/top-headlines?country=us&apikey=*"    # * = apikey should be used
 json_data=requests.get(api_address).json()
 
 
